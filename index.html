@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>StoryPorts Exercise - Invite User Flow</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      
+      <!-- Left Column -->
+      <div class="storyports-left-column">
+        <div class="storyports-left-contents">
+          <div class="storyports-logo pt-5 text-center">
+            <img src="./assets/images/storyports-logo.png" alt="StoryPorts logo">
+          </div>          
+          <div class="row col-12 mb-4 storyports-logo-text">
+            StoryPorts
+          </div>
+          <div class="row col-12 mb-4 welcome-aboard">
+            Welcome Aboard!
+          </div>
+          <div class="d-flex w-100 mb-4 youve-been-invited">
+            <div class="col-12">
+              You’ve been invited to join StoryPorts using an account managed by <span>&lt;company name&gt;</span>.
+            </div>
+          </div>
+          <div class="line"></div>
+        </div>             
+      </div>
+
+      <div class="story-bot-robot-sign">
+        <img src="./assets/images/storybot-robot.png" alt="StoryBot Robot">
+      </div>      
+
+      <!-- Right column -->
+      <div class="storyports-right-column">
+        <div class="storyports-right-contents">
+          <div class="w-100 question" id="step1">
+            <div class="d-flex mb-3 w-100">
+              <div class="col-6 confirm-your-email">
+                Confirm Your Email:
+              </div>
+              <div class="col-6 step-1-of-2">
+                Step 1 of 2
+              </div>
+            </div>  
+            <div class="d-flex w-100">
+              <div class="col-12 form-group">
+                <input type="email" class="form-control custom-input" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+            </div>
+            <div class="d-flex w-100 mt-3 flex-column-reverse flex-md-row">
+              <div class="col-12 col-md-8 please-note-your-em">
+                Please note: your email address will act as your username whenever you login.
+              </div>               
+              <div class="col-12 col-md-4">
+                <button type="button" class="btn btn-lg btn-block button-storyports next">
+                  Next
+                  <img src="./assets/images/svg/arrow_right.svg" alt="Arrow right">
+                </button>
+              </div>
+            </div>             
+          </div>
+          <div class="w-100 question" id="step2" style="display: none">
+            <div class="d-flex mb-3 w-100">
+              <div class="col-6"></div>
+              <div class="col-6 step-1-of-2">
+                Step 2 of 2
+              </div>
+            </div>          
+            <div class="d-flex w-100 mt-3 flex-column flex-md-row">
+              <div class="col-12 col-md-6 form-group">
+                <label for="firstName">First Name</label>
+                <input type="input" class="form-control custom-input" id="firstName" aria-describedby="firstName" placeholder="First Name">
+              </div>               
+              <div class="col-12 col-md-6 form-group">
+                <label for="lastName">Last Name</label>
+                <input type="input" class="form-control custom-input" id="lastName" aria-describedby="lastName" placeholder="Last Name">
+              </div>
+            </div>           
+            <div class="d-flex w-100 mt-3 flex-column flex-md-row">
+              <div class="col-12 col-md-6 form-group">
+                <label for="title">Title</label>
+                <input type="input" class="form-control custom-input" id="title" aria-describedby="title" placeholder="Title">
+              </div>              
+              <div class="col-12 col-md-6 form-group">
+                <label for="lastName">Phone Number</label>
+                <input type="input" class="form-control custom-input" id="phoneNumber" aria-describedby="phoneNumber" placeholder="Phone Number">
+              </div> 
+            </div>    
+            <div class="d-flex w-100 mt-3 flex-column flex-md-row">
+              <div class="col-12 col-md-6 form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control custom-input" id="password" aria-describedby="password" placeholder="Password">
+              </div>              
+              <div class="col-12 col-md-6 form-group">
+                <ul class="password-hint">
+                  <li>8 character minium</li>
+                  <li>One number</li>
+                  <li>One upper case character</li>
+                  <li>One lower case character</li>
+                  <li>One special character</li>
+                </ul>
+              </div> 
+            </div> 
+            <div class="d-flex w-100 mt-2 mb-4 flex-column flex-md-row justify-content-center">     
+              <div class="col-12 col-md-6">
+                <button type="button" class="btn btn-lg btn-block button-storyports">
+                  Confirm and Log In
+                </button>
+              </div>
+            </div>                                           
+          </div>                  
+        </div>
+        <div class="storyports-right-content-footer">
+          <div class="d-flex w-100">
+            <div class="col-12 text-center already-have-an-account">
+              <span>
+                Already have an account?
+              </span> 
+              <span>
+                Login here.
+              </span>
+            </div>
+          </div> 
+          <div class="d-flex w-100">
+            <div class="col-12 text-center what-is-story-ports">
+              <span>
+                Wnat is StoryPorts? 
+              </span> 
+              <span>
+                Learn more.
+              </span>
+            </div>
+          </div>                    
+        </div>
+      </div>
+    </div>
+      
+    <!-- JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

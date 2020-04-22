@@ -1,0 +1,198 @@
+html, body {
+  margin: 0;
+  font-family: Roboto;
+}
+html, body,
+.flex-container {
+  height: 100%;
+}
+.storyports-left-column,
+.storyports-right-column {
+  flex: 1;
+}
+.storyports-left-column {
+  background-image: url(../images/bg-color-mobile.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.confirm-your-email,
+.step-1-of-2 {
+  color: #2B3843;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+.confirm-your-email {
+  font-size: 18px;
+  line-height: 21px;
+}
+.step-1-of-2 {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+}
+.form-group > label {
+  color: #2B3843;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 21px;  
+  display: none;
+}
+.form-control.custom-input {
+  border-radius: 0px; 
+  border: 2px solid  #9B9B9B;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;  
+}
+.form-control.custom-input:focus,
+.form-control.custom-input:hover {
+  box-shadow: none;
+  border-color: #337AB7;
+}
+.please-note-your-em {
+  color: #2B3843;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 21px;
+  text-align: center;
+  margin: 60px 0px 30px 0px;
+}
+.button-storyports,
+.button-storyports:hover,
+.button-storyports:active,
+.button-storyports:focus {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 21px;
+  border-radius: 5px;
+  background-color: #337AB7;  
+}
+.what-is-story-ports,
+.already-have-an-account {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+.what-is-story-ports > span:first-child,
+.already-have-an-account > span:first-child {
+  color: #2B3843;
+  cursor: pointer;
+}  
+.what-is-story-ports > span:last-child,
+.already-have-an-account > span:last-child {
+  color: #337AB7;
+  cursor: pointer;
+} 
+.storyports-logo-text,
+.welcome-aboard {  
+  color: #FFFFFF;
+  font-size: 58px;
+  letter-spacing: 0;
+  line-height: 71px;  
+  display: none;
+}
+.storyports-logo-text{  
+  font-size: 58px;
+}
+.welcome-aboard {
+  font-size: 60px;
+}
+.youve-been-invited {
+  color: #2B3843;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+}
+.youve-been-invited span {
+  font-weight: 900;
+}
+.story-bot-robot-sign {
+  display: none;
+}  
+.password-hint {
+  color: #9B9B9B;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 16px;  
+}
+@media screen and (min-width: 768px) {
+  .flex-container {
+    display: flex;
+  }
+  .storyports-left-column {
+    background-image: url("../images/bg-color.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;     
+  }
+  .storyports-left-contents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 100%;    
+    margin-left: 45px;
+  }
+  .storyports-logo-text,
+  .welcome-aboard {
+    display: block;
+  }
+  .storyports-logo {
+    display: none;
+  }
+  .youve-been-invited {
+    color: #FFFFFF;
+    text-align: left;
+  }
+  .storyports-right-contents,
+  .storyports-right-content-footer {
+    margin: 0px 43px 0px 89px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 60%;
+  }
+  .storyports-right-contents {
+    height: 60%;
+  }
+  .please-note-your-em {
+    margin: 0px;
+  }
+  .storyports-right-content-footer {
+    height: 40%;
+    padding-bottom: 67px;  
+  }
+  .story-bot-robot-sign {
+    position: absolute;
+    left: 40%;
+    bottom: 0px; 
+    display: block;   
+  }
+  .story-bot-robot-sign > img {
+    width: 50%;
+  }
+  .line {
+    box-sizing: border-box;
+    height: 1px;
+    width: 60px;
+    border: 5px solid #FFFFFF;
+    border-radius: 5px;
+  }  
+  .form-group > label {
+    display: inline-block;
+  }  
+}
